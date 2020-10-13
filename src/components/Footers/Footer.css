@@ -1,0 +1,27 @@
+.img-footer {
+  width: 100%; /* width of container */
+  height: auto; /* height of container */
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.img-footer-adobe {
+  width: 80%; /* width of container */
+  height: auto; /* height of container */
+  object-fit: cover;
+  max-width: 100%;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.copy-text {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
