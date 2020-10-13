@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.fae63883.chunk.css",
+    "main.js": "/website/static/js/main.534dd295.chunk.js",
+    "main.js.map": "/website/static/js/main.534dd295.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.2a260a54.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.2a260a54.js.map",
+    "static/js/2.7f8d49ff.chunk.js": "/website/static/js/2.7f8d49ff.chunk.js",
+    "static/js/2.7f8d49ff.chunk.js.map": "/website/static/js/2.7f8d49ff.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.c6209134a37f65c0775d48be80713684.js": "/website/precache-manifest.c6209134a37f65c0775d48be80713684.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.fae63883.chunk.css.map": "/website/static/css/main.fae63883.chunk.css.map",
+    "static/js/2.7f8d49ff.chunk.js.LICENSE.txt": "/website/static/js/2.7f8d49ff.chunk.js.LICENSE.txt",
+    "static/media/adobe-illustrator.png": "/website/static/media/adobe-illustrator.6b68201e.png",
+    "static/media/bootstrap.png": "/website/static/media/bootstrap.2c93fb1f.png",
+    "static/media/charity-app.png": "/website/static/media/charity-app.7826c363.png",
+    "static/media/creative-tim.png": "/website/static/media/creative-tim.86d98420.png",
+    "static/media/css.png": "/website/static/media/css.95728e67.png",
+    "static/media/blk-design-system-pro-react.scss?v1.1.0": "/website/static/media/square5.fc998805.png",
+    "static/media/fullpage.png": "/website/static/media/fullpage.41293907.png",
+    "static/media/giving-tree.png": "/website/static/media/giving-tree.80d6fdee.png",
+    "static/media/giving-tree1.png": "/website/static/media/giving-tree1.572576b5.png",
+    "static/media/giving-tree2.png": "/website/static/media/giving-tree2.a8543f73.png",
+    "static/media/giving-tree3.png": "/website/static/media/giving-tree3.561ff81b.png",
+    "static/media/iphone-darwin.png": "/website/static/media/iphone-darwin.1d0ca22b.png",
+    "static/media/iphone-touro.png": "/website/static/media/iphone-touro.db63e7e2.png",
+    "static/media/me.jpg": "/website/static/media/me.9bb07247.jpg",
+    "static/media/nucleo-icons.css": "/website/static/media/nucleo.f0b489a5.woff",
+    "static/media/path3.png": "/website/static/media/path3.e62d30e8.png",
+    "static/media/react-portfolio.png": "/website/static/media/react-portfolio.417e72a9.png",
+    "static/media/react.png": "/website/static/media/react.49a30f95.png",
+    "static/media/tour-home.png": "/website/static/media/tour-home.40502acf.png",
+    "static/media/tour-site.png": "/website/static/media/tour-site.e98bb831.png",
+    "static/media/touro.png": "/website/static/media/touro.1bce8091.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a260a54.js",
+    "static/js/2.7f8d49ff.chunk.js",
+    "static/css/main.fae63883.chunk.css",
+    "static/js/main.534dd295.chunk.js"
+  ]
+}
