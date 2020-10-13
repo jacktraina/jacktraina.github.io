@@ -62,7 +62,7 @@ class GivingTree extends React.Component {
                 <Col className="ml-auto mr-auto" md="8">
                   <br/>
                   <p>
-                    Partners: David Friedman, Amanda Westwort, Dasha Kozhevnikova
+                    Partners: David Friedman, Hakeem Angulu, Dasha Kozhevnikova
                   </p>
                   <h3 className="title">
                     Problem Statement

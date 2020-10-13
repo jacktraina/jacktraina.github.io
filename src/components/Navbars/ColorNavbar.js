@@ -1,19 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System PRO React - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ColorNavbar.css";
@@ -21,18 +5,13 @@ import "./ColorNavbar.css";
 import {
   Button,
   UncontrolledCollapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
   Nav,
   Container,
   Row,
-  Col,
-  UncontrolledTooltip
+  Col
 } from "reactstrap";
 
 class ColorNavbar extends React.Component {
@@ -78,7 +57,12 @@ class ColorNavbar extends React.Component {
                 <Button to={{ pathname: "https://www.github.com/jacktraina"}} tag={Link} target="_blank" className="btn-icon" color="github">
                   <i className="fab fa-github" />
                 </Button>
-                <Button className="resume-button" to={{ pathname: "https://drive.google.com/file/d/1PSO5Fjm5jAKqz2IfExXMelka0gyX0wJW/view?usp=sharing"}} tag={Link} target="_blank">
+                <Button 
+                  className="resume-button" 
+                  to={{ pathname: "https://drive.google.com/file/d/1PSO5Fjm5jAKqz2IfExXMelka0gyX0wJW/view?usp=sharing"}} 
+                  tag={Link} 
+                  target="_blank"
+                  >
                   Resume
                 </Button>
               </NavbarBrand>
@@ -105,17 +89,17 @@ class ColorNavbar extends React.Component {
               </div>
               <Nav className="ml-auto" navbar>
               <NavItem>
-                  <a href="#home" className="nav-link">
+                  <a href="/home#intro" className="nav-link">
                     <p>Home</p>
                   </a>
                 </NavItem>
                 <NavItem>
-                  <a href="#features" className="nav-link">
+                  <a href="/home#about" className="nav-link">
                     <p>About Me</p>
                   </a>
                 </NavItem>
                 <NavItem>
-                  <a href="#projects" className="nav-link">
+                  <a href="/home#projects" className="nav-link">
                     <p>Projects</p>
                   </a>
                 </NavItem>

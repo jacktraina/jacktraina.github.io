@@ -1,21 +1,3 @@
-/*!
-
- =========================================================
- * BLK Design System PRO React - v1.1.0 based on BLK Design System PRO - v1.0.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/blk-design-system-pro-react
- * Copyright 2020 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-/* navbar color */
 @keyframes move-left-right {
   0% {
     transform: translateX(-10px); }

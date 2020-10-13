@@ -15,7 +15,7 @@ import Projects from "./Projects.js";
 import About from "./About";
 import "./ProjectDescription.css";
 
-class Home extends React.Component {
+class Intro extends React.Component {
   state = {
     activeIndex: 0
   };
@@ -41,7 +41,7 @@ class Home extends React.Component {
       <>
         <ColorNavbar />
         <div className="wrapper" ref="wrapper">
-          <div className="page-header" id="home">
+          <div className="page-header" id="intro">
             <img
               alt="..."
               className="path path3"
@@ -87,7 +87,7 @@ class Home extends React.Component {
                       <Col md="4" xs="6">
                         <Button 
                           color="primary"
-                          href="#projects"
+                          href="#about"
                           >Explore</Button>
                       </Col>
                     </Row>
@@ -179,4 +179,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home;
+export default Intro;
