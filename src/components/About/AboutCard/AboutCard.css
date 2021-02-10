@@ -1,0 +1,43 @@
+.disabledCard {
+    cursor: default !important;
+    pointer-events: none;
+  }
+
+.cardText {
+  font-size: 0.75rem !important;
+}
+
+.card-box {
+  width: 18rem;
+  min-height: 145px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3C3F74 !important;
+  border-radius: 16px !important;
+  box-shadow: 0px 6px 4px 0px black !important;
+  margin-bottom: 36px;
+  overflow: auto;
+}
+
+.card-description {
+  font-size: 11px !important;
+  margin-top: 10px;
+  color: white;
+  line-height: normal;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  color: #E14ECA;
+  font-size: 18px;
+  text-shadow: 0px 4px 4px #00000025;
+}
+
+.MuiCardContent-root {
+  padding-bottom: 8px !important;
+  padding-top: 12px !important;
+}
+
+.hide {
+  display: none !important;
+}

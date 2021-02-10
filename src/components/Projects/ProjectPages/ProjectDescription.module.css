@@ -1,0 +1,78 @@
+.projectType {
+    text-align: center;
+    color: #ba54f5;
+    font-size: 20px;
+}
+
+.projectTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.projectImage {
+    max-width: 66%;
+    max-height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    height: 100;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.projectImageTitle {
+    color: white;
+    font-weight: 600;
+}
+
+.vidRow {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section {
+    padding: 70px 0;
+    position: relative;
+}
+
+.row70 {
+    height: 70px;
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row50 {
+    height: 50px;
+    display: block;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.colDescription {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .colDescription {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%;
+    }
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: hsla(0,0%,100%,.8);
+}

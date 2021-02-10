@@ -1,0 +1,158 @@
+.pageHeader {
+    min-height: 90vh;
+    max-height: 999px;
+    padding: 0;
+    color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px) {
+    .pageHeader {
+        min-height: 80vh;
+    }
+}
+
+.introContainer {
+    margin-left: 50px;
+}
+
+.topBuffer {
+    height: 0px;
+}
+
+.wrapper {
+    background: #CCCCCC;
+}
+
+.align_center {
+    align-items: center !important; 
+}
+
+.row_main {
+    align-items: center !important; 
+    text-align: left;
+}
+
+.ml_auto {
+    margin-left: auto;
+}
+
+.mr_auto {
+    margin-right: auto;
+}
+
+.contentCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    padding: 0 15px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .topBuffer {
+        height: 120px;
+    }
+    .row_main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main_picture {
+        display: none;
+    }
+}
+
+.intro {
+    font-size: 20px;
+}
+
+@keyframes slidedown {
+    0%   {opacity: 0;}
+    50%  {opacity: 0.5;}
+    100% {opacity: 1;}
+  }
+
+.intro1 {
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+.intro2 {
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+.intro3 {
+    animation-name: slidedown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-timing-function: linear;
+}
+
+.introTitle {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    font-weight: 600;
+    color: #e14eca;
+}
+
+@media screen and (max-width: 991px) {
+    .intro1 {
+        font-size: 1.8rem;
+    }
+    .intro2 {
+        font-size: 1.8rem;
+    }
+    .intro3 {
+        font-size: 1.8rem;
+    }
+    .introTitle {
+        line-height: 1.4;
+        margin-top: 0;
+    }
+    .intro {
+        font-size: 13px;
+    }
+}
+
+@keyframes moveBlob {
+    0% {transform: translateX(10px);}
+    50% {transform: translateX(-10px);}
+    100% {transform: translateX(10px);}
+  }
+
+.blob {    
+    height: 60vh;
+    margin-top: 8%;
+    position: absolute;
+    opacity: 0.02;
+    animation-timing-function: ease-in-out;
+    animation-name: moveBlob;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media (max-width: 992px) {
+    .blob {
+        display: none;
+    }
+}

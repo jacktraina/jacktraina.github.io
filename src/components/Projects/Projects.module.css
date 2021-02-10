@@ -1,0 +1,298 @@
+.figma {
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    width: 75%;
+    height: auto;
+}
+
+.projects {
+    padding: 14vw 0 12vw 0;
+}
+
+.myProjects {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.project-item {
+    background: #1d8cf8;
+    background-image: linear-gradient(to bottom left, #1d8cf8, #3358f4, #1d8cf8);
+    background-size: 210% 210%;
+    background-position: top right;
+    text-align: center;
+    min-width: 100px;
+    font-weight: 400;
+}
+
+.project-button {
+    border-width: 2px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    margin: 4px 1px;
+    padding: 11px 30px;
+    border-radius: 0.4285rem;
+    cursor: pointer;
+    background: #ba54f5;
+    background-image: linear-gradient(to bottom left, #ba54f5, hsl(278, 59%, 29%), #ba54f5);
+    background-size: 210% 210%;
+    background-position: top right;
+    background-color: #ba54f5;
+    transition: all 0.15s ease;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.project-button:hover {
+    background-color: white !important;
+    background-image: linear-gradient(to bottom left, white, white, white);
+    background-image: -moz-linear-gradient(to bottom left,white, white, white) !important;
+    color: #ffffff;
+    box-shadow: none;
+}
+
+.ml_auto {
+    margin-left: auto;
+}
+
+.mr_auto {
+    margin-right: auto;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.navPills {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navItem {
+    margin: auto;
+    text-align: center;
+    padding: 11px 45px !important;
+    min-width: 100px !important;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.5);
+    background-color: #1f2251;
+    border-radius: .25rem !important;
+    cursor: default;
+}
+
+.navItemMobiile {
+    margin: auto;
+    text-align: center;
+    padding: 11px 45px !important;
+    min-width: 50px !important;
+    font-weight: 400;
+    color: hsla(0,0%,100%,.5);
+    background-color: #1f2251;
+    border-radius: .25rem !important;
+    cursor: default;
+}
+
+
+.navItemActive {
+    margin: auto;
+    text-align: center;
+    padding: 11px 45px !important;
+    min-width: 100px !important;
+    font-weight: 400;
+    background-color: #1f2251;
+    border-radius: .25rem !important;
+    background: #1d8cf8 !important;
+    background-image: linear-gradient(to bottom left,#1d8cf8,#3358f4,#1d8cf8) !important;
+    background-size: 210% 210% !important;
+    background-position: 100% 0 !important;
+    color: white !important;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    cursor: default;
+}
+
+.navItemActiveMobilie {
+    margin: auto;
+    text-align: center;
+    padding: 11px 45px !important;
+    min-width: 50px !important;
+    font-weight: 400;
+    background-color: #1f2251;
+    border-radius: .25rem !important;
+    background: #1d8cf8 !important;
+    background-image: linear-gradient(to bottom left,#1d8cf8,#3358f4,#1d8cf8) !important;
+    background-size: 210% 210% !important;
+    background-position: 100% 0 !important;
+    color: white !important;
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    cursor: default;
+}
+
+.tim_icon {
+    display: inline-block;
+    font: normal normal normal 1em/1 'Nucleo';
+    /* vertical-align: middle; */
+    speak: none;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.projOverview {
+    margin-left: auto;
+    margin-right: auto;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.projContainer {
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+    border: 0;
+    position: relative;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.projectTitle {
+    color: #fff;
+    text-transform: inherit;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: .75rem;
+    line-height: 1.25em;
+}
+
+.projectDescription {
+    margin: 30px auto; 
+    color: hsla(0,0%,100%,.6);
+    font-weight: 300;
+}
+
+.projectButton {
+    background: #e14eca;
+    background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+    background-size: 210% 210%;
+    background-position: top right;
+    background-color: #e14eca;
+    transition: all 0.15s ease;
+    box-shadow: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-width: 2px;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    margin: 4px 1px;
+    padding: 11px 30px;
+    border-radius: 0.4285rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 0.875rem;
+    line-height: 1.35em;
+}
+
+.btn,
+.projectButton:hover,
+.projectButton:focus {
+    box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    -webkit-transform: translateY(-1px);
+    background: #e14eca !important;
+    background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca) !important;
+    background-size: 210% 210% !important;
+    background-position: top right !important;
+    background-color: #e14eca !important;
+}
+
+.projectButton:active {
+    box-shadow: none!important;
+    transform: translateY(1px)!important;
+    transition: all .15s ease;
+    background: #e14eca !important;
+    background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca) !important;
+    background-size: 210% 210% !important;
+    background-position: top right !important;
+    background-color: #e14eca !important;
+}
+
+.phone {
+    display: none;
+}
+
+.carousel {
+    padding: 0 55px;
+}
+
+
+
+.slider {
+    display: flex;
+    flex-direction: row;
+}
+
+.arrow {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 55px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    outline: 0;
+    padding: 0;
+    z-index: 4;
+}
+
+.arrowSpan {
+    width: 25px;
+    color: #fff;
+    display: block;
+    margin: 0 auto; 
+      
+}
+
+@media screen and (max-width: 992px) {
+    .notPhone {
+        display: none !important;
+    }
+    .phone {
+        display: block;
+    }
+}
+
+.activeIcon {
+    color: white !important;
+    font-weight: 500;
+}
+
+.iconsMobile {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.nonActiveIcon {
+    margin: 20px;
+    width: 20px;
+}

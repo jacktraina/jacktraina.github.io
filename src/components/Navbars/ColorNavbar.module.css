@@ -1,0 +1,231 @@
+.resumeButton {
+    background: #e14eca;
+    background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+    background-size: 210% 210%;
+    background-position: top right;
+    background-color: #e14eca;
+    transition: all 0.15s ease;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.mlAuto {
+    margin-left: auto !important;
+}
+
+.navbar {
+    -webkit-transition: all 1000ms ease 0s;
+    -moz-transition: all 1000ms ease 0s;
+    -o-transition: all 1000ms ease 0s;
+    -ms-transition: all 1000ms ease 0s;
+    transition: all 1000ms ease 0s;
+    padding: .9375rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarColor {
+    background-color: #10112e; 
+    transition: all 1000ms ease 0s;
+    box-shadow: 0 5px 15px black;
+}
+
+.navbarTransparent {
+    background: transparent;
+}
+
+.navbarCollapseHeader {
+    display: none; }
+
+.navbarToggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.99925rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    border-radius: 0.25rem; 
+    vertical-align: middle;
+}
+    .navbarToggler:hover, .navbarToggler:focus {
+        text-decoration: none; }
+    
+.navbarBar {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 1px;
+    border-radius: 1px;
+    background: #ffffff;
+    margin-bottom: 7px;
+} 
+
+.bar2 {
+    width: 17px;
+    transition: width .2s linear;
+}
+
+.navbarTogglerIcon {
+    width: 1.5em;
+    height: 1.5em;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%; 
+    width: 22px;
+    height: 1px;
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+
+.navbarCollapseHeader {
+    display: none; }
+
+.collapseBrand {
+    font-size: 1.2495rem;
+    color: #ffffff; 
+    font-weight: 600; 
+}
+
+.collapseClose {
+    color: #ffffff;
+    font-size: 1.2495rem;
+    justify-content: right;
+}
+
+.textRight {
+    text-align: right !important;
+}
+
+.navLink {
+    position: relative;
+    color: inherit;
+    line-height: 20px;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.name {
+    display: none;
+}
+
+.navLink:hover {
+    color: #e14eca !important;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .navbarTranslate {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-between !important; 
+    }
+    .navbarCollapse {
+        position: absolute;
+        width: calc(100% - 1.4rem);
+        height: auto !important;
+        left: 0;
+        top: 0;
+        margin: 0.7rem;
+        background: #1f2251;
+        border-radius: 0.2857rem;
+        padding: 1.4rem; }
+    .navbarBar {
+        display: block;
+        position: relative;
+        width: 22px;
+        transition: width .2s linear;
+        height: 1px;
+        border-radius: 1px;
+        background: #ffffff;
+    }
+    .navbarCollapseHeader {
+        display: block;
+        font-size: 1.2495rem;
+        color: #ffffff; 
+        font-weight: 600; 
+        color: #ffffff;
+        font-size: 1.2495rem; 
+    }
+    .navButton {
+        display: none;
+    }
+    .resumeButton {
+        display: none;
+    }
+    .navbarTogglerIcon {
+        display: block;
+    }
+    .sideBar {
+        flex-direction: column;
+    }
+    .name {
+        display: inline;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbarToggler {
+        display: none;
+    }
+}
+
+.fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; 
+    padding-top: 25px;
+}
+
+.fab {
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12px, -12px);
+    line-height: 1.5626rem;
+    width: 24px;
+}
+
+.navButton {
+    height: 2.375rem;
+    min-width: 2.375rem;
+    width: 2.375rem;
+    padding: 0;
+    font-size: 0.9375rem;
+    overflow: hidden;
+    position: relative;
+    line-height: normal;
+    margin: 0 5px 0 10px;
+    cursor: pointer;
+}
+
+.btnNav {
+    position: absolute;
+    font-size: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-12px, -12px);
+    line-height: 1.5626rem;
+    width: 24px;
+}
