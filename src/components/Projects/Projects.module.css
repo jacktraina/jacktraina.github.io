@@ -5,7 +5,7 @@
 }
 
 .projects {
-    padding: 14vw 0 12vw 0;
+    padding: 8vw 0 12vw 0;
 }
 
 .myProjects {
@@ -237,35 +237,11 @@
     display: none;
 }
 
-.carousel {
-    padding: 0 55px;
-}
-
-
-
-.slider {
-    display: flex;
-    flex-direction: row;
-}
-
-.arrow {
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 55px;
-    background: rgba(0, 0, 0, 0.5);
-    border: 0;
-    outline: 0;
-    padding: 0;
-    z-index: 4;
-}
-
-.arrowSpan {
-    width: 25px;
-    color: #fff;
-    display: block;
-    margin: 0 auto; 
-      
+.contain {
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 992px) {
@@ -273,7 +249,11 @@
         display: none !important;
     }
     .phone {
-        display: block;
+        display: flex;
+    }
+    .projects {
+        padding-top: 100px;
+        overflow:hidden;
     }
 }
 

@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Projects.module.css";
 import "./Projects.module.css";
 import Arrow from '@material-ui/icons/ArrowForwardIos';
+import ProjectCarousel from './ProjectCarousel/ProjectCarousel';
 
 // reactstrap components
 import {
@@ -22,7 +23,7 @@ import {
 function ProjectSummary(props) {
   return (
       <div>
-        <Container>
+        <Container className={classes.container}>
           <Row>
             <Col className={classes.projOverview}>
               <Card className={classes.projContainer}>
@@ -192,20 +193,8 @@ class Projects extends React.Component {
                     </Row>
                 </TabPane>
               </TabContent>
-              <p className={classes.phone}>Project Category 1</p>
-              <Container className={classes.phone + " " + classes.carousel}>
-                <div className={classes.slider}>
-                  <div className={classes.carItem}>Item 1</div>
-                  <div className={classes.carItem}>Item 2</div>
-                  <div className={classes.carItem}>Item 3</div>
-                  <div className={classes.carItem}>Item 4</div>
-                  <div className={classes.carItem}>Item 5</div>
-                </div>
-                <button className={classes.arrow}>
-                    <span className={classes.arrowSpan}>
-                      <Arrow/>
-                    </span>
-                </button>
+              <Container className={classes.phone + " " + classes.contain}>
+                <ProjectCarousel />
               </Container>
             </Container>
           </div>
@@ -216,44 +205,3 @@ class Projects extends React.Component {
 }
 
 export default Projects;
-
-/*
-<Row>
-  <Col className="ml-auto mr-auto text-center mt-4" md="8">
-    <h3 className="title">Want to see more?</h3>
-    <h4 className="description mb-4">
-      Check out my Github!
-    </h4>
-    <Button color="primary" size="lg">
-      Github Link
-    </Button>
-  </Col>
-</Row>
-*/
-
-/*
-<NavItem className="mx-auto">
-  <NavLink
-    className={this.state.activeTab === "5" ? "active" : ""}
-    onClick={() => {
-      this.toggle("5");
-    }}
-  >
-    Concept
-    <i className="tim-icons icon-planet" />
-    CollegeCall
-  </NavLink>
-</NavItem>
-
-
-<TabPane tabId="project5">
-  <div className="space-100" />
-  <Col className="ml-auto mr-auto text-center mt-4" md="8">
-    <p className="description mb-5">
-      Add your information here for Project5.
-    </p>
-  </Col>
-  <div className="space-100" />
-</TabPane>
-*/
-
