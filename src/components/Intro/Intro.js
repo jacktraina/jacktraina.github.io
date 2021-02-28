@@ -80,7 +80,7 @@ class Intro extends React.Component {
                   <Col className={classes.ml_auto + " " + classes.mr_auto}>
                     <img
                       alt="..."
-                      className=''
+                      style={{width: "400px"}}
                       src={require("assets/img/JackCartoon.png")}
                     />
                   </Col>
